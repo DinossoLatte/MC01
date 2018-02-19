@@ -1,0 +1,269 @@
+{
+    "jugadas": [
+        {
+            "jugador": "asdf",
+            "cartas": [
+                {
+                    "valor": "5",
+                    "palo": "A"
+                },
+                {
+                    "valor": "5",
+                    "palo": "B"
+                },
+                {
+                    "valor": "5",
+                    "palo": "C"
+                },
+                {
+                    "valor": "5",
+                    "palo": "D"
+                }
+            ],
+            "apuesta": 50
+        },
+        {
+            "jugador": "asdf2",
+            "cartas": [
+                {
+                    "valor": "6",
+                    "palo": "A"
+                },
+                {
+                    "valor": "2",
+                    "palo": "B"
+                },
+                {
+                    "valor": "K",
+                    "palo": "C"
+                },
+                {
+                    "valor": "K",
+                    "palo": "D"
+                }
+            ],
+            "apuesta": 20
+        }
+    ],
+    "bote": 0
+},
+{
+    "jugadas": [
+        {
+            "jugador": "asdf",
+            "cartas": [
+                {
+                    "valor": "2",
+                    "palo": "B"
+                },
+                {
+                    "valor": "3",
+                    "palo": "B"
+                },
+                {
+                    "valor": "4",
+                    "palo": "C"
+                },
+                {
+                    "valor": "5",
+                    "palo": "D"
+                },
+                {
+                    "valor": "6",
+                    "palo": "D"
+                }
+            ],
+            "apuesta": 50
+        },
+        {
+            "jugador": "asdf2",
+            "cartas": [
+                {
+                    "valor": "2",
+                    "palo": "A"
+                },
+                {
+                    "valor": "3",
+                    "palo": "A"
+                },
+                {
+                    "valor": "4",
+                    "palo": "A"
+                },
+                {
+                    "valor": "5",
+                    "palo": "A"
+                },
+                {
+                    "valor": "6",
+                    "palo": "A"
+                }
+            ],
+            "apuesta": 20
+        }
+    ],
+    "bote": 0
+}
+{
+    "jugadas": [
+        {
+            "jugador": "asdf",
+            "cartas": [
+                {
+                    "valor": "5",
+                    "palo": "A"
+                },
+                {
+                    "valor": "5",
+                    "palo": "B"
+                },
+                {
+                    "valor": "5",
+                    "palo": "C"
+                },
+                {
+                    "valor": "5",
+                    "palo": "D"
+                }
+            ],
+            "apuesta": 50
+        },
+        {
+            "jugador": "asdf2",
+            "cartas": [
+                {
+                    "valor": "6",
+                    "palo": "A"
+                },
+                {
+                    "valor": "2",
+                    "palo": "B"
+                },
+                {
+                    "valor": "K",
+                    "palo": "C"
+                },
+                {
+                    "valor": "K",
+                    "palo": "D"
+                }
+            ],
+            "apuesta": 20
+        }
+    ],
+    "bote": 0
+},
+{
+    "jugadas": [
+        {
+            "jugador": "asdf",
+            "cartas": [
+                {
+                    "valor": "1",
+                    "palo": "S"
+                },
+                {
+                    "valor": "5",
+                    "palo": "H"
+                },
+                {
+                    "valor": "J",
+                    "palo": "H"
+                },
+                {
+                    "valor": "J",
+                    "palo": "D"
+                },
+                {
+                    "valor": "1",
+                    "palo": "D"
+                }
+            ],
+            "apuesta": 50
+        },
+        {
+            "jugador": "asdf2",
+            "cartas": [
+                {
+                    "valor": "1",
+                    "palo": "S"
+                },
+                {
+                    "valor": "1",
+                    "palo": "S"
+                },
+                {
+                    "valor": "1",
+                    "palo": "S"
+                },
+                {
+                    "valor": "1",
+                    "palo": "S"
+                },
+                {
+                    "valor": "1",
+                    "palo": "S"
+                }
+            ],
+            "apuesta": 500
+        }
+    ],
+    "bote": 0
+}
+{
+    "jugadas": [
+        {
+            "jugador": "asdf",
+            "cartas": [
+                {
+                    "valor": "1",
+                    "palo": "S"
+                },
+                {
+                    "valor": "5",
+                    "palo": "H"
+                },
+                {
+                    "valor": "J",
+                    "palo": "H"
+                },
+                {
+                    "valor": "J",
+                    "palo": "D"
+                },
+                {
+                    "valor": "5",
+                    "palo": "D"
+                }
+            ],
+            "apuesta": 150
+        },
+        {
+            "jugador": "asdf2",
+            "cartas": [
+                {
+                    "valor": "1",
+                    "palo": "D"
+                },
+                {
+                    "valor": "1",
+                    "palo": "H"
+                },
+                {
+                    "valor": "1",
+                    "palo": "C"
+                },
+                {
+                    "valor": "K",
+                    "palo": "H"
+                },
+                {
+                    "valor": "K",
+                    "palo": "C"
+                }
+            ],
+            "apuesta": 200
+        }
+    ],
+    "bote": 200
+}

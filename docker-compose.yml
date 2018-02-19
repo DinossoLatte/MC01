@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+  node:
+    image: "node:9.3.0"
+    working_dir: /home/node/app
+    volumes:
+      - ./api_poker:/home/node/app
+    ports:
+      - 8080:8080
+    command: "npm start"

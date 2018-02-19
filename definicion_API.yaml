@@ -1,0 +1,76 @@
+swagger: '2.0'
+info:
+  description: API para una partida de póker.
+  version: 1.0.0
+  title: MC01 - API para Manos de Poker
+host: localhost
+basePath: /api
+tags:
+  - name: Manos
+    description: Solicitudes relacionadas con las manos de los jugadores
+schemes:
+  - http
+paths:
+  /hand:
+    post:
+      tags:
+        - Manos
+      summary: 'Comprueba el ganador de la jugada, o en el caso de trampas las detectará'
+      description: ''
+      operationId: hand
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - in: body
+          name: jugadas
+          description: Las jugadas de los jugadores
+          required: true
+          schema:
+            type: "array"
+            items: 
+              $ref: '#/definitions/Jugada'
+      responses:
+        default:
+          description: >-
+            Contendrá una descripción del jugador que ha ganado o si la partida
+            está amañada.
+          schema:
+            $ref: '#/definitions/ApiResponse'
+definitions:
+  Carta:
+    type: object
+    properties:
+      valor:
+        type: string
+        description: >-
+          Podrá ser un número del 2 al 10 y las letras J, Q, K y A para indicar
+          jota, reina, rey y as en ese orden.
+      palo:
+        type: string
+        description: >-
+          Podrá ser C, D, H o S para indicar tréboles, rombos, corazones o
+          picas.
+  Jugada:
+    type: object
+    properties:
+      jugador:
+        type: string
+        description: El nombre del jugador.
+      cartas:
+        type: array
+        description: Las cartas que posée en la mano.
+        items:
+          $ref: '#/definitions/Carta'
+  ApiResponse:
+    type: object
+    properties:
+      message:
+        type: string
+        description: >-
+          Seguirá el formato "Jugador gana Cantidad_apostada" o "Partida
+          amañada".
+externalDocs:
+  description: Find out more about Swagger
+  url: 'http://swagger.io'
